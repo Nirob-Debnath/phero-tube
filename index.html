@@ -10,6 +10,7 @@
 </head>
 
 <body>
+
     <header>
         <nav class="w-11/12 mx-auto flex justify-between items-center border-b-2 border-[#17171720] py-5">
             <div class="logo">
@@ -25,12 +26,14 @@
     </header>
 
     <nav id="category-container" class="flex py-5 justify-center gap-5">
-        <button class="btn btn-sm">All</button>
-        <button class="btn btn-sm">Music</button>
-        <button class="btn btn-sm">Comedy</button>
-        <button class="btn btn-sm">Drawing</button>
+        <div>
+            <button class="btn btn-sm bg-[#FF1F3D] text-white">All</button>
+        </div>
     </nav>
 
+    <section class="w-11/12 mx-auto grid grid-cols-4 gap-4" id="video-container"></section>
+
+    <script src="./script/index.js"></script>
 </body>
 
 </html>
