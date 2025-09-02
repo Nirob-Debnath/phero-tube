@@ -41,13 +41,6 @@ PH Tube is a web-based video streaming application where users can browse and wa
   - `GET https://openapi.programming-hero.com/api/phero-tube/video/{video_id}`
   - Example: `https://openapi.programming-hero.com/api/phero-tube/video/aaac`
 
-## Requirements
-
-- Responsive Navbar with logo, search box, sort button, and bottom border
-- Dynamic category section with API integration and active button UX
-- Dynamic video section with API integration, card layout, verified badge, modal for details, and no video icon
-- Search functionality to find videos by title and deactivate category buttons
-
 ## Additional Information
 
 - Built with HTML, CSS (Tailwind), and JavaScript
