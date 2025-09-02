@@ -128,3 +128,5 @@ document.getElementById("search-input").addEventListener("keyup", (e) => {
     const input = e.target.value;
     loadVideos(input);
 });
+
+loadVideos();
