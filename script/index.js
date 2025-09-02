@@ -67,7 +67,7 @@ const displayVideos = (videos) => {
                     <p class="text-sm text-gray-400">${video.others.views} views</p>
                 </div>
             </div>
-            <button class="btn btn-block">Show Details</button>
+            <button onclick="loadVideoDetails(${video.video_id})" class="btn btn-block">Show Details</button>
         </div>
         `;
         videoContainer.append(videoCard);
